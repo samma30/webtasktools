@@ -1,0 +1,179 @@
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WebTaskTools - Free Online Web Tools</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    .tool-card:hover {
+      transform: translateY(-5px);
+      transition: 0.3s;
+    }
+  </style>
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+  <!-- HEADER -->
+  <header class="bg-indigo-600 text-white py-6 shadow-lg">
+    <div class="container mx-auto px-6 flex flex-col md:flex-row items-center justify-between">
+      <h1 class="text-3xl font-bold">WebTaskTools</h1>
+      <nav class="mt-4 md:mt-0 space-x-4">
+        <a href="#" class="hover:underline">Home</a>
+        <a href="#color-tools" class="hover:underline">Color Tools</a>
+        <a href="#image-tools" class="hover:underline">Image Tools</a>
+        <a href="#text-tools" class="hover:underline">Text Tools</a>
+        <a href="#developer-tools" class="hover:underline">Developer Tools</a>
+        <a href="#network-tools" class="hover:underline">Network Tools</a>
+        <a href="#pdf-tools" class="hover:underline">PDF Tools</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="text-center py-16 bg-gradient-to-r from-indigo-500 to-blue-500 text-white">
+    <h2 class="text-4xl font-bold mb-4">All-In-One Web Tools Platform</h2>
+    <p class="text-lg max-w-2xl mx-auto mb-6">Access powerful developer, design, and productivity tools in one place — all free, fast, and browser-based.</p>
+    <a href="#color-tools" class="bg-white text-indigo-600 px-6 py-3 rounded-full font-semibold hover:bg-gray-100">Explore Tools</a>
+  </section>
+
+  <!-- COLOR TOOLS -->
+  <section id="color-tools" class="py-12 container mx-auto px-6">
+    <h3 class="text-3xl font-bold mb-6 text-indigo-600">🎨 Color Tools</h3>
+    <div class="grid md:grid-cols-3 gap-6">
+      <!-- Example Tool -->
+      <a href="color-picker.html" class="tool-card bg-white p-6 rounded-xl shadow hover:shadow-lg block">
+        <img src="icons/color-picker.png" alt="Color Picker" class="w-12 h-12 mb-3">
+        <h4 class="text-xl font-semibold">Color Picker</h4>
+        <p class="text-sm text-gray-600">Pick and copy any color instantly from the palette or screen.</p>
+      </a>
+      <a href="color-palette-generator.html" class="tool-card bg-white p-6 rounded-xl shadow hover:shadow-lg block">
+        <img src="icons/palette.png" alt="Color Palette Generator" class="w-12 h-12 mb-3">
+        <h4 class="text-xl font-semibold">Color Palette Generator</h4>
+        <p class="text-sm text-gray-600">Generate beautiful color palettes for your design projects.</p>
+      </a>
+      <a href="color-contrast-checker.html" class="tool-card bg-white p-6 rounded-xl shadow hover:shadow-lg block">
+        <img src="icons/contrast.png" alt="Color Contrast Checker" class="w-12 h-12 mb-3">
+        <h4 class="text-xl font-semibold">Color Contrast Checker</h4>
+        <p class="text-sm text-gray-600">Check color contrast ratios to ensure accessibility compliance.</p>
+      </a>
+    </div>
+  </section>
+
+  <!-- IMAGE TOOLS -->
+  <section id="image-tools" class="py-12 container mx-auto px-6">
+    <h3 class="text-3xl font-bold mb-6 text-indigo-600">🖼️ Image Tools</h3>
+    <div class="grid md:grid-cols-3 gap-6">
+      <a href="image-resizer.html" class="tool-card bg-white p-6 rounded-xl shadow hover:shadow-lg block">
+        <img src="icons/resize.png" alt="Image Resizer" class="w-12 h-12 mb-3">
+        <h4 class="text-xl font-semibold">Image Resizer</h4>
+        <p class="text-sm text-gray-600">Resize images easily without losing quality.</p>
+      </a>
+      <a href="image-compressor.html" class="tool-card bg-white p-6 rounded-xl shadow hover:shadow-lg block">
+        <img src="icons/compress.png" alt="Image Compressor" class="w-12 h-12 mb-3">
+        <h4 class="text-xl font-semibold">Image Compressor</h4>
+        <p class="text-sm text-gray-600">Compress image size while keeping high resolution.</p>
+      </a>
+      <a href="image-crop-tool.html" class="tool-card bg-white p-6 rounded-xl shadow hover:shadow-lg block">
+        <img src="icons/crop.png" alt="Image Crop Tool" class="w-12 h-12 mb-3">
+        <h4 class="text-xl font-semibold">Image Crop Tool</h4>
+        <p class="text-sm text-gray-600">Crop and customize your images online easily.</p>
+      </a>
+    </div>
+  </section>
+
+  <!-- ✍️ TEXT TOOLS -->
+  <section id="text-tools" class="py-12 container mx-auto px-6">
+    <h3 class="text-3xl font-bold mb-6 text-indigo-600">✍️ Text Tools</h3>
+    <div class="grid md:grid-cols-3 gap-6">
+      <a href="word-counter.html" class="tool-card bg-white p-6 rounded-xl shadow hover:shadow-lg block">
+        <img src="icons/word-counter.png" alt="Word Counter" class="w-12 h-12 mb-3">
+        <h4 class="text-xl font-semibold">Word Counter</h4>
+        <p class="text-sm text-gray-600">Count words, characters, and spaces in real time.</p>
+      </a>
+      <a href="text-case-converter.html" class="tool-card bg-white p-6 rounded-xl shadow hover:shadow-lg block">
+        <img src="icons/text-case.png" alt="Text Case Converter" class="w-12 h-12 mb-3">
+        <h4 class="text-xl font-semibold">Text Case Converter</h4>
+        <p class="text-sm text-gray-600">Convert text between uppercase, lowercase, and title case.</p>
+      </a>
+      <a href="slug-generator.html" class="tool-card bg-white p-6 rounded-xl shadow hover:shadow-lg block">
+        <img src="icons/slug.png" alt="Slug Generator" class="w-12 h-12 mb-3">
+        <h4 class="text-xl font-semibold">Slug Generator</h4>
+        <p class="text-sm text-gray-600">Generate clean SEO-friendly slugs for URLs.</p>
+      </a>
+    </div>
+  </section>
+
+  <!-- 🧑‍💻 DEVELOPER TOOLS -->
+  <section id="developer-tools" class="py-12 container mx-auto px-6">
+    <h3 class="text-3xl font-bold mb-6 text-indigo-600">🧑‍💻 Developer Tools</h3>
+    <div class="grid md:grid-cols-3 gap-6">
+      <a href="json-formatter.html" class="tool-card bg-white p-6 rounded-xl shadow hover:shadow-lg block">
+        <img src="icons/json.png" alt="JSON Formatter" class="w-12 h-12 mb-3">
+        <h4 class="text-xl font-semibold">JSON Formatter</h4>
+        <p class="text-sm text-gray-600">Format and beautify JSON data for better readability.</p>
+      </a>
+      <a href="html-minifier.html" class="tool-card bg-white p-6 rounded-xl shadow hover:shadow-lg block">
+        <img src="icons/html.png" alt="HTML Minifier" class="w-12 h-12 mb-3">
+        <h4 class="text-xl font-semibold">HTML Minifier</h4>
+        <p class="text-sm text-gray-600">Minify HTML code to optimize your web performance.</p>
+      </a>
+      <a href="regex-tester.html" class="tool-card bg-white p-6 rounded-xl shadow hover:shadow-lg block">
+        <img src="icons/regex.png" alt="Regex Tester" class="w-12 h-12 mb-3">
+        <h4 class="text-xl font-semibold">Regex Tester</h4>
+        <p class="text-sm text-gray-600">Test and debug regular expressions quickly and easily.</p>
+      </a>
+    </div>
+  </section>
+
+  <!-- 🌐 NETWORK TOOLS -->
+  <section id="network-tools" class="py-12 container mx-auto px-6">
+    <h3 class="text-3xl font-bold mb-6 text-indigo-600">🌐 Network Tools</h3>
+    <div class="grid md:grid-cols-3 gap-6">
+      <a href="whois-lookup.html" class="tool-card bg-white p-6 rounded-xl shadow hover:shadow-lg block">
+        <img src="icons/whois.png" alt="WHOIS Lookup" class="w-12 h-12 mb-3">
+        <h4 class="text-xl font-semibold">WHOIS Lookup</h4>
+        <p class="text-sm text-gray-600">Find domain registration details and ownership info.</p>
+      </a>
+      <a href="ip-lookup.html" class="tool-card bg-white p-6 rounded-xl shadow hover:shadow-lg block">
+        <img src="icons/ip.png" alt="IP Lookup" class="w-12 h-12 mb-3">
+        <h4 class="text-xl font-semibold">IP Lookup</h4>
+        <p class="text-sm text-gray-600">Identify IP geolocation and related information.</p>
+      </a>
+      <a href="dns-lookup.html" class="tool-card bg-white p-6 rounded-xl shadow hover:shadow-lg block">
+        <img src="icons/dns.png" alt="DNS Lookup" class="w-12 h-12 mb-3">
+        <h4 class="text-xl font-semibold">DNS Lookup</h4>
+        <p class="text-sm text-gray-600">Query DNS records such as MX, TXT, or A records.</p>
+      </a>
+    </div>
+  </section>
+
+  <!-- 📄 PDF TOOLS -->
+  <section id="pdf-tools" class="py-12 container mx-auto px-6 mb-12">
+    <h3 class="text-3xl font-bold mb-6 text-indigo-600">📄 PDF Tools</h3>
+    <div class="grid md:grid-cols-3 gap-6">
+      <a href="word-to-pdf.html" class="tool-card bg-white p-6 rounded-xl shadow hover:shadow-lg block">
+        <img src="icons/word-pdf.png" alt="Word to PDF" class="w-12 h-12 mb-3">
+        <h4 class="text-xl font-semibold">Word to PDF</h4>
+        <p class="text-sm text-gray-600">Convert Word documents to PDF instantly.</p>
+      </a>
+      <a href="pdf-to-word.html" class="tool-card bg-white p-6 rounded-xl shadow hover:shadow-lg block">
+        <img src="icons/pdf-word.png" alt="PDF to Word" class="w-12 h-12 mb-3">
+        <h4 class="text-xl font-semibold">PDF to Word</h4>
+        <p class="text-sm text-gray-600">Extract editable text from your PDF files.</p>
+      </a>
+      <a href="image-to-pdf.html" class="tool-card bg-white p-6 rounded-xl shadow hover:shadow-lg block">
+        <img src="icons/image-pdf.png" alt="Image to PDF" class="w-12 h-12 mb-3">
+        <h4 class="text-xl font-semibold">Image to PDF</h4>
+        <p class="text-sm text-gray-600">Combine multiple images into a single PDF file.</p>
+      </a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-gray-900 text-gray-400 text-center py-6">
+    <p>© 2025 WebTaskTools. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
